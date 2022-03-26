@@ -1,0 +1,32 @@
+[
+  {
+    "sex": "m",
+    "name": "Vasya",
+    "phoneNumber": "88005553535"
+  },
+  {
+    "sex": "m",
+    "name": "Patya",
+    "phoneNumber": "89013457220"
+  },
+  {
+    "sex": "f",
+    "name": "Masha",
+    "phoneNumber": "89852141057"
+  },
+  {
+    "sex": "f",
+    "name": "Dasha",
+    "phoneNumber": "89875632547"
+  },
+  {
+    "sex": "g",
+    "name": "Apache",
+    "phoneNumber": "89441264785"
+  },
+  {
+    "sex": "A",
+    "name": "Kerbol",
+    "phoneNumber": "89145214868"
+  }
+]

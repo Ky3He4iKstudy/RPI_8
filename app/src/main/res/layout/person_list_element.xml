@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="#AFAFAF"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="64sp"
+            android:layout_height="64sp"
+            android:src="@drawable/ic_baseline_not_interested_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Name"
+            app:layout_constraintStart_toEndOf="@+id/sex"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/phone"
+            />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Phone"
+            app:layout_constraintStart_toEndOf="@+id/sex"
+
+            app:layout_constraintTop_toBottomOf="@id/name"
+            app:layout_constraintBottom_toBottomOf="@id/sex"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
